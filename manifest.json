@@ -1,13 +1,23 @@
 {
-  "manifest_version": 2,
-  "name": "Minimal Slack",
-  "description": "Display Tabelog Stars in Honest Scale",
-  "version": "0.0.1",
-  "content_scripts": [
-    {
-      "matches": ["https://*.slack.com/*"],
-      "js": ["jquery-2.1.4.min.js","myscript.js"],
-      "run_at": "document_end"
-    }
-  ]
+	"manifest_version": 2,
+	"name": "Minimal Slack",
+	"description": "Display Tabelog Stars in Honest Scale",
+	"version": "0.0.1",
+
+
+	"commands": {
+		"toggle-sidebar": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+T",
+				"mac": "Command+Shift+T"
+			},
+			"description": "Toggle Sidebar"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.slack.com/*"],
+			"js": ["jquery-2.1.4.min.js","myscript.js"]
+		}
+	]
 }
