@@ -5,9 +5,9 @@ chrome extension for slack.
 Slackがもうすぐ、より良いものになります。
 
 - サイドバーの表示切り替え機能
-- 自動折り返しの強化
+- テキストの自動折り返しの強化
 
-## install
+## Install
 Extensionの設定画面で開発者モードにしてディレクトリをロードしてください．
 
 ##Usage
