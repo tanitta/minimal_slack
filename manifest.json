@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Minimal Slack",
+  "description": "Display Tabelog Stars in Honest Scale",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://*.slack.com/*"],
+      "js": ["myscript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
