@@ -2,8 +2,6 @@
 
 chrome extension for slack.
 
-Slackがもうすぐ、より良いものになります。
-
 - サイドバーの表示切り替え機能
 - テキストの自動折り返しの強化
 
